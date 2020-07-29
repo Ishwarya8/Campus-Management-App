@@ -1,0 +1,4 @@
+#Thu Jun 18 12:57:25 IST 2020
+base.0=C\:\\Users\\ishwa\\Downloads\\CampusManagement-20200511T033616Z-001\\CampusManagement\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

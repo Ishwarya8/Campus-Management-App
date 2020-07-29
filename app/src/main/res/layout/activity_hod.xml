@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF3AF"
+    tools:context=".hod">
+
+    <TableLayout
+        android:layout_width="368dp"
+        android:layout_height="285dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964">
+
+        <TableRow
+            android:background="#0079D6"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="138dp"
+                android:layout_height="57dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Details"
+                android:textAlignment="center"
+                android:textColor="#F8F5F6"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="53dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:text="Max Salary"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_height="53dp"
+                android:layout_column="3"
+                android:gravity="center_horizontal"
+                android:text="Min Salary"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_height="72dp"
+            android:background="#DAE8FC"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:gravity="center_horizontal"
+                android:text="Name"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="113dp"
+                android:layout_height="56dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_column="3"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#DAE8FC"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="60dp"
+                android:layout_column="1"
+                android:gravity="center_horizontal"
+                android:text="package"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pack"
+                android:layout_width="134dp"
+                android:layout_height="60dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pack1"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_column="3"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DAE8FC"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="139dp"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:gravity="center_horizontal"
+                android:text="Company name"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cname"
+                android:layout_width="137dp"
+                android:layout_height="61dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cname1"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_column="3"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TableLayout
+        android:layout_width="367dp"
+        android:layout_height="309dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246">
+
+        <TableRow
+            android:background="#0079D6"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="154dp"
+                android:layout_height="53dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Details"
+                android:textAlignment="center"
+                android:textColor="#F8F5F6"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="154dp"
+                android:layout_height="53dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:text="Count"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="#DAE8FC"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="222dp"
+                android:layout_height="53dp"
+                android:layout_column="1"
+                android:gravity="center_horizontal"
+                android:text="Total No of students"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="154dp"
+                android:layout_height="53dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#DAE8FC"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="154dp"
+                android:layout_height="53dp"
+                android:layout_column="1"
+                android:gravity="center_horizontal"
+                android:text="No of students placed"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="154dp"
+                android:layout_height="53dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="#DAE8FC"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="154dp"
+                android:layout_height="53dp"
+                android:layout_column="1"
+                android:gravity="center_horizontal"
+                android:text="No of students not placed"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nplace"
+                android:layout_width="154dp"
+                android:layout_height="53dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#DAE8FC"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="154dp"
+                android:layout_height="53dp"
+                android:layout_column="1"
+                android:gravity="center_horizontal"
+                android:text="Average salary"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/avg"
+                android:layout_width="122dp"
+                android:layout_height="47dp"
+                android:layout_column="2"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounds"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

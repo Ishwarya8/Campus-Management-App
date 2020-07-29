@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF3AF"
+    tools:context=".Student">
+
+    <Button
+        android:id="@+id/btncts"
+        android:layout_width="110dp"
+        android:layout_height="95dp"
+        android:background="#FDD835"
+        android:text="CTS"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <Button
+        android:id="@+id/btntcs"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        android:background="#ED83AA"
+        android:text="TCS"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btncts"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <Button
+        android:id="@+id/btnzoho"
+        android:layout_width="108dp"
+        android:layout_height="80dp"
+        android:background="#AB8AED"
+        android:text="Zoho"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncts"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <Button
+        android:id="@+id/btnacc"
+        android:layout_width="122dp"
+        android:layout_height="89dp"
+        android:background="#FFFFFF"
+        android:text="Accenture"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toEndOf="@+id/btnzoho"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <Button
+        android:id="@+id/btnamaz"
+        android:layout_width="117dp"
+        android:layout_height="98dp"
+        android:layout_marginBottom="240dp"
+        android:background="#89DDD5"
+        android:text="Amazon"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnzoho"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <Button
+        android:id="@+id/btnciti"
+        android:layout_width="130dp"
+        android:layout_height="95dp"
+        android:background="#5CE2F3"
+        android:text="Citi Bank"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toEndOf="@+id/btnamaz"
+        app:layout_constraintTop_toBottomOf="@+id/btnacc"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <Button
+        android:id="@+id/btngs"
+        android:layout_width="117dp"
+        android:layout_height="86dp"
+        android:background="#ED5F33"
+        android:text="GoldMan Sachs"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnamaz"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="117dp"
+        android:layout_height="82dp"
+        android:background="#FB8C00"
+        android:text="Infosys"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toEndOf="@+id/btngs"
+        app:layout_constraintTop_toBottomOf="@+id/btnciti"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="238dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/btndetails"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:background="@drawable/rounds"
+        android:text="My Details"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+    <Button
+        android:id="@+id/btnlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/rounds"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvname"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+</androidx.constraintlayout.widget.ConstraintLayout>
